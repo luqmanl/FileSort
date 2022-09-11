@@ -5,7 +5,7 @@ import shutil
 from tqdm import tqdm
 
 image_extensions = [".png", ".jpeg", ".jpg", ".gif", ".raw"]
-video_extensions = [".mp4", ".mov", ".wmv", ".avi", ".mkv"]
+video_extensions = [".mp4", ".mov", ".wmv", ".avi", ".mkv", ".3gp"]
 
 def main():
     path = os.path.curdir
