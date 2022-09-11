@@ -26,9 +26,9 @@ def sort_by_date_and_type(path: str):
     # Add to image or video directory
     file_extension = file_extension.lower()
     if file_extension in image_extensions:
-        dest_path = dest_path + "/images/"
+        dest_path = dest_path + "/Images/"
     elif file_extension in video_extensions:
-        dest_path += "/videos/"
+        dest_path += "/Videos/"
     else:
         return
 
